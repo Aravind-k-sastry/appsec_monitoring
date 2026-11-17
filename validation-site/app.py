@@ -50,14 +50,14 @@ DEMO_FIELDS = [
 ]
 
 # Need-validation survey fields (multi-select answers are stored "; "-joined).
+# Reduced to 5 core questions (Nov 2026). Legacy columns may still exist in an
+# older appshield.db; inserts name columns explicitly, so a trimmed list is safe.
 SURVEY_FIELDS = [
     "mode", "account", "sa_name",
-    "role", "company_size", "app_count", "is_customer",
-    "inventory_confidence", "shadow_freq", "visibility_today",
-    "installed_agents", "last_visibility_action", "install_difficulty",
-    "paid_last_year", "owner",
-    "next_step", "pay_trigger",
-    "interest", "contact_name", "email", "company",
+    "is_customer",
+    "inventory_confidence",
+    "installed_agents", "last_visibility_action",
+    "next_step", "contact_name", "email", "company",
 ]
 
 STATIC_TYPES = {
@@ -424,9 +424,6 @@ def render_admin():
     next_rows = conn.execute(
         "SELECT next_step v, COUNT(*) c FROM survey_responses WHERE next_step!='' "
         "GROUP BY next_step ORDER BY c DESC").fetchall()
-    interest_rows = conn.execute(
-        "SELECT interest v, COUNT(*) c FROM survey_responses WHERE interest!='' "
-        "GROUP BY interest ORDER BY c DESC").fetchall()
     # kill-signal cross-tab: among hosts already running CrowdStrike/Defender,
     # did they add a new tool or extend/ask the vendor they already had?
     edr_total = scalar(
@@ -477,9 +474,9 @@ def render_admin():
     def barset(rows, base, empty):
         return "".join(sbar(r["v"], r["c"], base) for r in rows) or f"<p class='muted'>{empty}</p>"
 
-    surv_cols = ["id", "submitted_at", "mode", "account", "role", "is_customer",
+    surv_cols = ["id", "submitted_at", "mode", "account", "is_customer",
                  "inventory_confidence", "installed_agents", "last_visibility_action",
-                 "paid_last_year", "next_step", "interest", "email"]
+                 "next_step", "contact_name", "email", "company"]
     surv_head = "".join(f"<th>{c}</th>" for c in surv_cols)
     surv_body = "".join(
         "<tr>" + "".join(f"<td>{html.escape(str(r[c]) if r[c] is not None else '')}</td>"
@@ -491,7 +488,8 @@ def render_admin():
 <hr style="border:0;border-top:1px solid var(--line);margin:34px 0 10px">
 <h1 style="font-size:26px">Need-validation survey</h1>
 <p class="muted">Stated-need signal — separate from the demo/intent funnel above.
-  Behavioural answers (Q8&times;Q9, past spend) carry the weight; treat Q13 as a stated intention, not a forecast.</p>
+  Behavioural answers (what's installed &times; what they did last time) carry the weight;
+  treat the stated next step as an intention, not a forecast.</p>
 
 <div class="kpis" style="grid-template-columns:repeat(2,1fr);max-width:520px">
   {kpi(surv_total, "Survey responses")}
@@ -513,11 +511,9 @@ def render_admin():
   {barset(edr_action_rows, edr_total, "No EDR-running responses yet")}
 </div>
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:22px">
-  <div><h2 style="font-size:18px">If it were free &mdash; next step (Q13)</h2>
-    {barset(next_rows, surv_total, "No responses yet")}</div>
-  <div><h2 style="font-size:18px">Early-access interest (Q15)</h2>
-    {barset(interest_rows, surv_total, "No responses yet")}</div>
+<div style="margin-top:22px;max-width:620px">
+  <h2 style="font-size:18px">If they found something &mdash; most likely next step</h2>
+  {barset(next_rows, surv_total, "No responses yet")}
 </div>
 
 <div style="display:flex;gap:16px;align-items:center;margin-top:26px">

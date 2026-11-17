@@ -832,11 +832,11 @@ def survey():
     return f"""
 <section class="hero" style="padding-bottom:20px">
   <div class="wrap">
-    <span class="pill"><span class="live"></span> 3-minute need check</span>
+    <span class="pill"><span class="live"></span> 1-minute need check</span>
     <h1>Where are your <span class="accent">application blind spots</span>?</h1>
-    <p class="lede">A short, no-pitch survey about how you see what runs on your servers today —
-      shadow apps, app-layer attacks, and AI/LLM activity. Honest answers help us build the right thing
-      (or decide not to). Most questions are one click.</p>
+    <p class="lede">Five quick questions about what you can see on your servers today —
+      exposed apps, app-layer attacks, and AI/LLM activity. No pitch; honest answers help us
+      build the right thing (or decide not to).</p>
   </div>
 </section>
 
@@ -856,33 +856,13 @@ def survey():
         </div>
       </div>
 
-      <div class="sgroup">About you</div>
-      {_q(1, "Your role", _opts("role", ["SecOps / SOC", "CISO / security leadership", "App / DevOps owner", "Platform / Infrastructure", "MSP / MSSP", "Other"], required=True))}
-      {_q(2, "Company size (employees)", _opts("company_size", ["Under 100", "100–1,000", "1,000–5,000", "5,000+"], row=True))}
-      {_q(3, "Roughly how many internet-facing + internal apps/services do you run?", _opts("app_count", ["1–10", "11–50", "51–200", "200+", "Don't know"], row=True))}
-      {_q(4, "Current Barracuda WaaS / WAF customer?", _opts("is_customer", ["Yes", "No", "Not sure"], required=True, row=True))}
+      {_q(1, "Current Barracuda WaaS / WAF customer?", _opts("is_customer", ["Yes", "No", "Not sure"], required=True, row=True))}
+      {_q(2, "How confident are you that you have a complete, current inventory of what runs on your app servers — including shadow services and AI/LLM integrations?", q5_body)}
+      {_q(3, "What's installed on your production app servers today?", _opts("installed_agents", ["CrowdStrike", "Microsoft Defender", "SentinelOne", "Other EDR", "Cloud WAF agent", "None", "Don't know"], kind="checkbox"), hint="(select all that apply)")}
+      {_q(4, "Last time you needed new security visibility on those hosts, what did you actually do?", _opts("last_visibility_action", ["Added a new tool", "Extended a tool already installed", "Asked a vendor I already use", "Did nothing — too hard"]))}
+      {_q(5, "If a quick check surfaced apps, attacks, or AI/LLM calls on your servers you didn't know about — what's your most likely next step?", _opts("next_step", ["Investigate it right away", "Evaluate a paid way to fix it", "Loop in the team that owns it", "Note it, deal with it later", "Probably nothing"]))}
 
-      <div class="sgroup">Visibility today</div>
-      {_q(5, "How confident are you that you have a complete, current inventory of what runs on your app servers — including shadow services and AI/LLM integrations?", q5_body)}
-      {_q(6, "In the last 12 months, how often did you find an app, service, or AI integration running that you didn't know was there?", _opts("shadow_freq", ["Never", "Once", "A few times", "Many times"], row=True))}
-      {_q(7, "How do you see app-layer attacks and what your servers talk to today?", _opts("visibility_today", ["Cloud WAF", "EDR / XDR", "API discovery / ASM tool", "Manual / scripts", "Nothing specific"], kind="checkbox"), hint="(select all that apply)")}
-
-      <div class="sgroup">What's on the host</div>
-      {_q(8, "What's installed on your production app servers now?", _opts("installed_agents", ["CrowdStrike", "Microsoft Defender", "SentinelOne", "Other EDR", "Cloud WAF agent", "None", "Don't know"], kind="checkbox"), hint="(select all that apply)")}
-      {_q(9, "Last time you needed new security visibility on those hosts, what did you actually do?", _opts("last_visibility_action", ["Added a new tool", "Extended a tool already installed", "Asked a vendor I already use", "Did nothing — too hard"]))}
-      {_q(10, "How hard is it to get a new privileged agent approved on a production server?", _opts("install_difficulty", ["Easy", "Moderate", "Hard", "Near-impossible"], row=True))}
-
-      <div class="sgroup">Budget &amp; ownership</div>
-      {_q(11, "In the last 12 months, did you pay for app/API visibility or on-host security tooling?", _opts("paid_last_year", ["Yes — new purchase", "Yes — expanded existing", "No", "Don't know"]))}
-      {_q(12, "Who owns finding shadow apps / shadow AI on servers?", _opts("owner", ["Me", "My team", "Another team", "Nobody clearly"], row=True))}
-
-      <div class="sgroup">If it were free</div>
-      {_q(13, "If a free agent showed you apps, attacks, and AI/MCP calls you didn't know about — most likely next step?", _opts("next_step", ["Ignore it", "Investigate manually", "Evaluate paid protection", "Loop in the owning team", "Nothing — not my budget"]))}
-      <div class="q"><div class="qlab"><b>14.</b> What would make a finding worth paying to act on? <span class="hint">(optional)</span></div>
-        <textarea name="pay_trigger" placeholder="E.g. if it proved an actual attack got through, or found data leaving via an AI agent…"></textarea></div>
-
-      <div class="sgroup">One last thing</div>
-      {_q(15, "Want early access / a demo of what we build?", _opts("interest", ["Yes", "Maybe", "No"], row=True))}
+      <div class="sgroup">Open to a short follow-up? <span class="hint">(optional — we may reach out to learn more)</span></div>
       <div class="form-grid" style="margin-top:6px">
         <div class="field"><label>Name <span class="hint">(optional)</span></label><input type="text" name="contact_name"></div>
         <div class="field"><label>Work email <span class="hint">(optional)</span></label><input type="email" name="email"></div>
