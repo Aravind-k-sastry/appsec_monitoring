@@ -64,7 +64,7 @@ STATIC_TYPES = {
     ".css": "text/css; charset=utf-8",
     ".js": "application/javascript; charset=utf-8",
     ".png": "image/png", ".jpg": "image/jpeg", ".svg": "image/svg+xml",
-    ".ico": "image/x-icon",
+    ".ico": "image/x-icon", ".pdf": "application/pdf",
 }
 
 # which GET paths are "real" marketing pages we count as pageviews

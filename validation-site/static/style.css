@@ -267,6 +267,70 @@ textarea{min-height:100px;resize:vertical}
 .sumbar .track{height:9px;background:var(--panel2);border:1px solid var(--line);border-radius:6px;overflow:hidden}
 .sumbar .track>span{display:block;height:100%;background:linear-gradient(90deg,#26a1ff,#00edff)}
 
+/* ---------- report showcase (experience · prove) ---------- */
+/* KPI cards with deltas, rendered inside the .screen chrome */
+.rpt-kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:11px}
+@media(max-width:620px){.rpt-kpis{grid-template-columns:1fr 1fr}}
+.rpt-kpi{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:11px 12px}
+.rpt-kpi .big{font-size:22px;font-weight:800;color:#fff;line-height:1.05}
+.rpt-kpi .cap{font-size:10.5px;color:var(--muted);margin-top:3px;line-height:1.3}
+.rpt-kpi .delta{display:inline-block;font-size:10.5px;font-weight:800;margin-top:6px;padding:2px 7px;border-radius:999px}
+.rpt-kpi .delta.up{background:rgba(12,242,165,.14);color:var(--green)}
+.rpt-kpi .delta.down{background:rgba(239,83,80,.14);color:var(--red)}
+.rpt-kpi .delta.flat{background:rgba(0,237,255,.12);color:var(--cyan)}
+
+/* report section label inside a screen */
+.rpt-h{display:flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--cyan);font-weight:700;margin:14px 2px 8px}
+.rpt-h:first-child{margin-top:2px}
+.rpt-h .rule{flex:1;height:1px;background:var(--line)}
+
+/* trend sparkline — posture over 4 months */
+.trend{display:flex;align-items:flex-end;gap:7px;height:66px;padding:8px 10px;background:var(--panel);
+  border:1px solid var(--line);border-radius:10px}
+.trend .bar{flex:1;display:flex;flex-direction:column;align-items:center;gap:5px;justify-content:flex-end;height:100%}
+.trend .bar>span{display:block;width:100%;max-width:34px;border-radius:5px 5px 0 0;
+  background:linear-gradient(180deg,#00edff,#26a1ff)}
+.trend .bar.first>span{background:var(--panel2);border:1px solid var(--line)}
+.trend .bar b{font-size:11px;color:#fff;font-weight:700}
+.trend .bar small{font-size:9.5px;color:var(--muted)}
+
+/* compact data table inside a screen */
+.rpt-table{width:100%;border-collapse:collapse;font-size:11.5px;margin:2px 0}
+.rpt-table th,.rpt-table td{border-bottom:1px solid var(--line);padding:7px 8px;text-align:left}
+.rpt-table th{color:var(--muted);font-weight:600;font-size:10px;letter-spacing:.05em;text-transform:uppercase}
+.rpt-table td{color:var(--soft)}
+.rpt-table td .mut{color:var(--muted);font-size:10.5px}
+.rpt-table td.num{text-align:right;font-variant-numeric:tabular-nums;color:#fff;font-weight:600}
+.rpt-table tr:last-child td{border-bottom:0}
+
+/* compliance badges */
+.rbadges{display:flex;flex-wrap:wrap;gap:7px;margin:2px}
+.rbadge{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:600;color:var(--soft);
+  background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 10px}
+.rbadge .tick{color:var(--green);font-weight:800}
+
+/* value callout — dollars / hours */
+.valuebox{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:4px}
+@media(max-width:620px){.valuebox{grid-template-columns:1fr}}
+.valuebox .v{background:linear-gradient(180deg,rgba(12,242,165,.08),transparent);
+  border:1px solid var(--line);border-radius:10px;padding:11px 12px}
+.valuebox .v .amt{font-size:19px;font-weight:800;color:var(--green);line-height:1.05}
+.valuebox .v .cap{font-size:10.5px;color:var(--muted);margin-top:4px;line-height:1.35}
+
+/* reports gallery — the standalone "inside the report" section */
+.rgal{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+@media(max-width:880px){.rgal{grid-template-columns:1fr}}
+.rdoc{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px;display:flex;flex-direction:column}
+.rdoc .rkick{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--cyan);font-weight:700}
+.rdoc h4{margin:7px 0 6px;font-size:17px;color:#fff}
+.rdoc p{margin:0 0 12px;font-size:13.5px;color:var(--soft)}
+.rdoc ul{margin:0 0 14px;padding-left:18px;display:flex;flex-direction:column;gap:7px}
+.rdoc li{font-size:13px;color:var(--soft)}
+.rdoc li b{color:#fff}
+.rdoc .who{margin-top:auto;padding-top:12px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+.rdoc .who b{color:var(--soft)}
+
 /* survey */
 .modebar{display:flex;align-items:center;gap:16px;flex-wrap:wrap;background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:6px}
 .modebar .modelab{font-weight:600;font-size:14px}

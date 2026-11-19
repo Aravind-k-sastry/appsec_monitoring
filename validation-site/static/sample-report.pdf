@@ -1,0 +1,380 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 9040 >>
+stream
+0.043 0.165 0.290 rg 0.00 714.00 612.00 78.00 re f
+BT /F2 11 Tf 1.000 1.000 1.000 rg 1 0 0 1 40.00 770.00 Tm (BARRACUDA) Tj ET
+BT /F2 15 Tf 1.000 1.000 1.000 rg 1 0 0 1 40.00 748.00 Tm (AppShield Agent  ∑  Security Posture Report) Tj ET
+BT /F1 9 Tf 0.800 0.860 0.920 rg 1 0 0 1 40.00 728.00 Tm (Host app-prod-01  ∑  November 2026  ∑  Monthly board report) Tj ET
+BT /F1 8 Tf 0.800 0.860 0.920 rg 1 0 0 1 470.00 756.00 Tm (POSTURE SCORE) Tj ET
+BT /F2 18 Tf 0.560 0.860 0.980 rg 1 0 0 1 470.00 734.00 Tm (82 / 100) Tj ET
+BT /F1 8 Tf 0.800 0.860 0.920 rg 1 0 0 1 470.00 720.00 Tm (+28 since install) Tj ET
+0.949 0.961 0.973 rg 40.00 646.00 82.00 48.00 re f
+0.173 0.651 0.878 rg 40.00 691.00 82.00 3.00 re f
+BT /F2 13 Tf 0.043 0.165 0.290 rg 1 0 0 1 47.00 668.00 Tm (9) Tj ET
+BT /F1 7 Tf 0.420 0.450 0.500 rg 1 0 0 1 47.00 653.00 Tm (apps & agents) Tj ET
+0.949 0.961 0.973 rg 128.00 646.00 82.00 48.00 re f
+0.173 0.651 0.878 rg 128.00 691.00 82.00 3.00 re f
+BT /F2 13 Tf 0.043 0.165 0.290 rg 1 0 0 1 135.00 668.00 Tm (3) Tj ET
+BT /F1 7 Tf 0.420 0.450 0.500 rg 1 0 0 1 135.00 653.00 Tm (blind spots closed) Tj ET
+0.949 0.961 0.973 rg 216.00 646.00 82.00 48.00 re f
+0.173 0.651 0.878 rg 216.00 691.00 82.00 3.00 re f
+BT /F2 13 Tf 0.043 0.165 0.290 rg 1 0 0 1 223.00 668.00 Tm (92,456) Tj ET
+BT /F1 7 Tf 0.420 0.450 0.500 rg 1 0 0 1 223.00 653.00 Tm (incoming detected) Tj ET
+0.949 0.961 0.973 rg 304.00 646.00 82.00 48.00 re f
+0.173 0.651 0.878 rg 304.00 691.00 82.00 3.00 re f
+BT /F2 13 Tf 0.043 0.165 0.290 rg 1 0 0 1 311.00 668.00 Tm (94) Tj ET
+BT /F1 7 Tf 0.420 0.450 0.500 rg 1 0 0 1 311.00 653.00 Tm (AI egress blocked) Tj ET
+0.949 0.961 0.973 rg 392.00 646.00 82.00 48.00 re f
+0.173 0.651 0.878 rg 392.00 691.00 82.00 3.00 re f
+BT /F2 13 Tf 0.043 0.165 0.290 rg 1 0 0 1 399.00 668.00 Tm (0) Tj ET
+BT /F1 7 Tf 0.420 0.450 0.500 rg 1 0 0 1 399.00 653.00 Tm (incidents) Tj ET
+0.949 0.961 0.973 rg 480.00 646.00 82.00 48.00 re f
+0.173 0.651 0.878 rg 480.00 691.00 82.00 3.00 re f
+BT /F2 13 Tf 0.043 0.165 0.290 rg 1 0 0 1 487.00 668.00 Tm (100%) Tj ET
+BT /F1 7 Tf 0.420 0.450 0.500 rg 1 0 0 1 487.00 653.00 Tm (AI calls governed) Tj ET
+BT /F2 13 Tf 0.102 0.137 0.196 rg 1 0 0 1 40.00 620.00 Tm (What the agent discovered) Tj ET
+BT /F1 8.5 Tf 0.420 0.450 0.500 rg 1 0 0 1 40.00 606.00 Tm (Public-facing apps taking incoming traffic \(detect mode\) and agents making calls to external apps \(egress\).) Tj ET
+BT /F2 10 Tf 0.043 0.165 0.290 rg 1 0 0 1 40.00 586.00 Tm (Public-facing apps ó incoming \(detect mode\)) Tj ET
+0.043 0.165 0.290 rg 40.00 554.00 532.00 18.00 re f
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 559.50 Tm (Application \(domain\)) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 190.00 559.50 Tm (Type) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 305.00 559.50 Tm (Host) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 367.00 559.50 Tm (Status) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 475.00 559.50 Tm (Risk) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 541.50 Tm (reports.acme.com) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 190.00 541.50 Tm (REST API) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 305.00 541.50 Tm (app-prod-01) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 367.00 541.50 Tm (Advance ∑ cloud-routed) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 475.00 541.50 Tm (Resolved) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 536.00 m 572.00 536.00 l S
+0.949 0.961 0.973 rg 40.00 518.00 532.00 18.00 re f
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 523.50 Tm (checkout.acme.com) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 190.00 523.50 Tm (Web app) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 305.00 523.50 Tm (app-prod-01) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 367.00 523.50 Tm (Detect mode) Tj ET
+BT /F2 8.5 Tf 0.753 0.224 0.169 rg 1 0 0 1 475.00 523.50 Tm (High ∑ active attacks) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 518.00 m 572.00 518.00 l S
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 505.50 Tm (login.acme.com) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 190.00 505.50 Tm (Auth gateway) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 305.00 505.50 Tm (app-prod-01) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 367.00 505.50 Tm (Detect mode) Tj ET
+BT /F2 8.5 Tf 0.753 0.224 0.169 rg 1 0 0 1 475.00 505.50 Tm (High ∑ brute-force) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 500.00 m 572.00 500.00 l S
+0.949 0.961 0.973 rg 40.00 482.00 532.00 18.00 re f
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 487.50 Tm (admin.acme.com) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 190.00 487.50 Tm (Admin portal) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 305.00 487.50 Tm (app-prod-01) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 367.00 487.50 Tm (Detect mode) Tj ET
+BT /F2 8.5 Tf 0.878 0.541 0.000 rg 1 0 0 1 475.00 487.50 Tm (Medium ∑ was shadow) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 482.00 m 572.00 482.00 l S
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 469.50 Tm (store-api.acme.com) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 190.00 469.50 Tm (REST API) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 305.00 469.50 Tm (app-prod-02) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 367.00 469.50 Tm (Detect mode) Tj ET
+BT /F2 8.5 Tf 0.878 0.541 0.000 rg 1 0 0 1 475.00 469.50 Tm (Medium ∑ was shadow) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 464.00 m 572.00 464.00 l S
+0.50 w 0.847 0.871 0.902 RG 40.00 572.00 m 40.00 464.00 l S
+0.50 w 0.847 0.871 0.902 RG 572.00 572.00 m 572.00 464.00 l S
+BT /F2 10 Tf 0.043 0.165 0.290 rg 1 0 0 1 40.00 442.00 Tm (Agents calling external apps ó egress) Tj ET
+0.043 0.165 0.290 rg 40.00 410.00 532.00 18.00 re f
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 415.50 Tm (Agent) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 190.00 415.50 Tm (Type) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 305.00 415.50 Tm (Host) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 367.00 415.50 Tm (Egress destination) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 475.00 415.50 Tm (Status) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 397.50 Tm (invoice-agent) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 190.00 397.50 Tm (AI agent \(MCP\)) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 305.00 397.50 Tm (app-prod-03) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 367.00 397.50 Tm (MCP ∑ x-mcp.ru) Tj ET
+BT /F2 8.5 Tf 0.753 0.224 0.169 rg 1 0 0 1 475.00 397.50 Tm (2 blocked at egress) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 392.00 m 572.00 392.00 l S
+0.949 0.961 0.973 rg 40.00 374.00 532.00 18.00 re f
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 379.50 Tm (support-bot) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 190.00 379.50 Tm (LLM assistant) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 305.00 379.50 Tm (app-prod-01) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 367.00 379.50 Tm (Anthropic, OpenAI) Tj ET
+BT /F2 8.5 Tf 0.878 0.541 0.000 rg 1 0 0 1 475.00 379.50 Tm (1 blocked ∑ controlled) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 374.00 m 572.00 374.00 l S
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 361.50 Tm (report-gen) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 190.00 361.50 Tm (AI agent) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 305.00 361.50 Tm (app-prod-01) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 367.00 361.50 Tm (OpenAI) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 475.00 361.50 Tm (Allowed ∑ controlled) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 356.00 m 572.00 356.00 l S
+0.949 0.961 0.973 rg 40.00 338.00 532.00 18.00 re f
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 343.50 Tm (data-sync) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 190.00 343.50 Tm (Service agent) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 305.00 343.50 Tm (app-prod-02) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 367.00 343.50 Tm (api.partner.com) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 475.00 343.50 Tm (Allowed ∑ controlled) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 338.00 m 572.00 338.00 l S
+0.50 w 0.847 0.871 0.902 RG 40.00 428.00 m 40.00 338.00 l S
+0.50 w 0.847 0.871 0.902 RG 572.00 428.00 m 572.00 338.00 l S
+BT /F1 8.5 Tf 0.420 0.450 0.500 rg 1 0 0 1 40.00 322.00 Tm (3 apps were shadow-exposed \(internet-reachable, never onboarded\) ó now surfaced; reports.acme.com is onboarded to Advance.) Tj ET
+BT /F1 8.5 Tf 0.420 0.450 0.500 rg 1 0 0 1 40.00 307.00 Tm (Public apps: incoming is detected in detect mode \(eBPF + parallel analysis\). Onboard to Advance/Premium for cloud inline protection.) Tj ET
+BT /F1 8.5 Tf 0.420 0.450 0.500 rg 1 0 0 1 40.00 292.00 Tm (Agents: external egress \(MCP / API / LLM\) is blocked at the source when it violates policy.) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 32.00 m 572.00 32.00 l S
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 40.00 18.00 Tm (Sample report ó figures are illustrative. AppShield Agent is in early-access evaluation.) Tj ET
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 470.00 18.00 Tm (© Barracuda Networks) Tj ET
+
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 11629 >>
+stream
+0.043 0.165 0.290 rg 0.00 742.00 612.00 50.00 re f
+BT /F2 11 Tf 1.000 1.000 1.000 rg 1 0 0 1 40.00 770.00 Tm (BARRACUDA) Tj ET
+BT /F2 12 Tf 1.000 1.000 1.000 rg 1 0 0 1 40.00 752.00 Tm (AppShield Agent  ∑  Security Posture Report \(continued\)) Tj ET
+BT /F1 8.5 Tf 0.800 0.860 0.920 rg 1 0 0 1 470.00 756.00 Tm (Page 2 of 3) Tj ET
+BT /F2 13 Tf 0.102 0.137 0.196 rg 1 0 0 1 40.00 718.00 Tm (Attacks found on your apps) Tj ET
+BT /F1 8.5 Tf 0.420 0.450 0.500 rg 1 0 0 1 40.00 704.00 Tm (Incoming attacks are identified in detect mode \(eBPF observation + parallel log analysis\). Agent egress is blocked at the source.) Tj ET
+BT /F2 10 Tf 0.043 0.165 0.290 rg 1 0 0 1 40.00 682.00 Tm (Incoming ó detected \(detect mode\)) Tj ET
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 255.00 682.00 Tm (observed via eBPF, identified after log ingestion ó not blocked inline) Tj ET
+0.043 0.165 0.290 rg 40.00 650.00 532.00 18.00 re f
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 655.50 Tm (Vector) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 170.00 655.50 Tm (Target app / endpoint) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 350.00 655.50 Tm (Volume) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 410.00 655.50 Tm (Peak) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 483.00 655.50 Tm (Outcome) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 637.50 Tm (Credential stuffing) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 637.50 Tm (reports.acme.com ∑ /api/login) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 637.50 Tm (42,118) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 637.50 Tm (2,100/min) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 483.00 637.50 Tm (Detected) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 632.00 m 572.00 632.00 l S
+0.949 0.961 0.973 rg 40.00 614.00 532.00 18.00 re f
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 619.50 Tm (Brute-force login) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 619.50 Tm (login.acme.com ∑ /login) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 619.50 Tm (9,330) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 619.50 Tm (480/min) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 483.00 619.50 Tm (Detected) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 614.00 m 572.00 614.00 l S
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 601.50 Tm (L7 HTTP flood) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 601.50 Tm (reports.acme.com) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 601.50 Tm (18,440) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 601.50 Tm (9,100/s) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 483.00 601.50 Tm (Detected) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 596.00 m 572.00 596.00 l S
+0.949 0.961 0.973 rg 40.00 578.00 532.00 18.00 re f
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 583.50 Tm (SQL injection probes) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 583.50 Tm (checkout.acme.com ∑ /search) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 583.50 Tm (3,207) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 583.50 Tm (ó) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 483.00 583.50 Tm (Detected) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 578.00 m 572.00 578.00 l S
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 565.50 Tm (Reflected XSS) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 565.50 Tm (checkout.acme.com ∑ /cart) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 565.50 Tm (1,942) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 565.50 Tm (ó) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 483.00 565.50 Tm (Detected) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 560.00 m 572.00 560.00 l S
+0.949 0.961 0.973 rg 40.00 542.00 532.00 18.00 re f
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 547.50 Tm (Path traversal / LFI) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 547.50 Tm (admin.acme.com ∑ /../) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 547.50 Tm (1,106) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 547.50 Tm (ó) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 483.00 547.50 Tm (Detected) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 542.00 m 572.00 542.00 l S
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 529.50 Tm (Directory brute-force) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 529.50 Tm (admin.acme.com) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 529.50 Tm (2,540) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 529.50 Tm (ó) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 483.00 529.50 Tm (Detected) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 524.00 m 572.00 524.00 l S
+0.949 0.961 0.973 rg 40.00 506.00 532.00 18.00 re f
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 511.50 Tm (SSRF attempt) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 511.50 Tm (store-api.acme.com ∑ /fetch) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 511.50 Tm (388) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 511.50 Tm (ó) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 483.00 511.50 Tm (Detected) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 506.00 m 572.00 506.00 l S
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 493.50 Tm (Command injection) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 493.50 Tm (reports.acme.com ∑ /export) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 493.50 Tm (174) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 493.50 Tm (ó) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 483.00 493.50 Tm (Detected) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 488.00 m 572.00 488.00 l S
+0.949 0.961 0.973 rg 40.00 470.00 532.00 18.00 re f
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 475.50 Tm (Open-redirect abuse) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 475.50 Tm (checkout.acme.com ∑ /out) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 475.50 Tm (512) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 475.50 Tm (ó) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 483.00 475.50 Tm (Detected) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 470.00 m 572.00 470.00 l S
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 457.50 Tm (Sensitive-file scan) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 457.50 Tm (multiple ∑ .env / .git) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 457.50 Tm (4,760) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 457.50 Tm (ó) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 483.00 457.50 Tm (Detected) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 452.00 m 572.00 452.00 l S
+0.949 0.961 0.973 rg 40.00 434.00 532.00 18.00 re f
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 439.50 Tm (Malicious bot / scraper) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 439.50 Tm (store-api.acme.com) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 439.50 Tm (6,815) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 439.50 Tm (ó) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 483.00 439.50 Tm (Detected) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 434.00 m 572.00 434.00 l S
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 421.50 Tm (API enumeration \(BOLA\)) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 421.50 Tm (store-api.acme.com ∑ /v2) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 421.50 Tm (903) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 421.50 Tm (ó) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 483.00 421.50 Tm (Detected) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 416.00 m 572.00 416.00 l S
+0.949 0.961 0.973 rg 40.00 398.00 532.00 18.00 re f
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 403.50 Tm (Session / cookie tampering) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 403.50 Tm (checkout.acme.com) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 403.50 Tm (221) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 403.50 Tm (ó) Tj ET
+BT /F2 8.5 Tf 0.118 0.557 0.353 rg 1 0 0 1 483.00 403.50 Tm (Detected) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 398.00 m 572.00 398.00 l S
+0.50 w 0.847 0.871 0.902 RG 40.00 668.00 m 40.00 398.00 l S
+0.50 w 0.847 0.871 0.902 RG 572.00 668.00 m 572.00 398.00 l S
+BT /F2 9 Tf 0.043 0.165 0.290 rg 1 0 0 1 40.00 383.00 Tm (92,456 incoming attacks detected ó identified from eBPF telemetry in detect mode \(not blocked inline\).) Tj ET
+BT /F2 10 Tf 0.043 0.165 0.290 rg 1 0 0 1 40.00 364.00 Tm (Agent egress ó blocked at source) Tj ET
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 255.00 364.00 Tm (outbound calls triggered by your agents \(MCP / API / LLM\)) Tj ET
+0.043 0.165 0.290 rg 40.00 332.00 532.00 18.00 re f
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 45.00 337.50 Tm (Vector) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 170.00 337.50 Tm (Target app / endpoint) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 350.00 337.50 Tm (Volume) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 410.00 337.50 Tm (Peak) Tj ET
+BT /F2 8.5 Tf 1.000 1.000 1.000 rg 1 0 0 1 483.00 337.50 Tm (Outcome) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 319.50 Tm (Prompt injection \(tool-call\)) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 319.50 Tm (invoice-agent -> MCP) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 319.50 Tm (47) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 319.50 Tm (ó) Tj ET
+BT /F2 8.5 Tf 0.753 0.224 0.169 rg 1 0 0 1 483.00 319.50 Tm (Blocked at egress) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 314.00 m 572.00 314.00 l S
+0.949 0.961 0.973 rg 40.00 296.00 532.00 18.00 re f
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 301.50 Tm (LLM data-exfil attempt) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 301.50 Tm (support-bot -> external) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 301.50 Tm (12) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 301.50 Tm (ó) Tj ET
+BT /F2 8.5 Tf 0.753 0.224 0.169 rg 1 0 0 1 483.00 301.50 Tm (Blocked at egress) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 296.00 m 572.00 296.00 l S
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 283.50 Tm (Unapproved MCP destination) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 283.50 Tm (invoice-agent -> x-mcp.ru) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 283.50 Tm (29) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 283.50 Tm (ó) Tj ET
+BT /F2 8.5 Tf 0.753 0.224 0.169 rg 1 0 0 1 483.00 283.50 Tm (Blocked at egress) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 278.00 m 572.00 278.00 l S
+0.949 0.961 0.973 rg 40.00 260.00 532.00 18.00 re f
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 45.00 265.50 Tm (Outbound API-key leak) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 170.00 265.50 Tm (support-bot -> api.*) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 350.00 265.50 Tm (6) Tj ET
+BT /F1 8.5 Tf 0.102 0.137 0.196 rg 1 0 0 1 410.00 265.50 Tm (ó) Tj ET
+BT /F2 8.5 Tf 0.753 0.224 0.169 rg 1 0 0 1 483.00 265.50 Tm (Blocked at egress) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 260.00 m 572.00 260.00 l S
+0.50 w 0.847 0.871 0.902 RG 40.00 350.00 m 40.00 260.00 l S
+0.50 w 0.847 0.871 0.902 RG 572.00 350.00 m 572.00 260.00 l S
+BT /F2 9 Tf 0.118 0.557 0.353 rg 1 0 0 1 40.00 245.00 Tm (94 agent-egress calls blocked at the source ó enforced locally by the agent.) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 32.00 m 572.00 32.00 l S
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 40.00 18.00 Tm (Sample report ó figures are illustrative. AppShield Agent is in early-access evaluation.) Tj ET
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 470.00 18.00 Tm (© Barracuda Networks) Tj ET
+
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 4342 >>
+stream
+0.043 0.165 0.290 rg 0.00 742.00 612.00 50.00 re f
+BT /F2 11 Tf 1.000 1.000 1.000 rg 1 0 0 1 40.00 770.00 Tm (BARRACUDA) Tj ET
+BT /F2 12 Tf 1.000 1.000 1.000 rg 1 0 0 1 40.00 752.00 Tm (AppShield Agent  ∑  Security Posture Report \(continued\)) Tj ET
+BT /F1 8.5 Tf 0.800 0.860 0.920 rg 1 0 0 1 470.00 756.00 Tm (Page 3 of 3) Tj ET
+BT /F2 12 Tf 0.102 0.137 0.196 rg 1 0 0 1 40.00 714.00 Tm (Posture trend ó last 4 months) Tj ET
+0.173 0.651 0.878 rg 60.00 620.00 42.00 37.80 re f
+BT /F2 9 Tf 0.043 0.165 0.290 rg 1 0 0 1 69.00 662.80 Tm (54) Tj ET
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 71.00 607.00 Tm (Aug) Tj ET
+0.173 0.651 0.878 rg 138.00 620.00 42.00 44.10 re f
+BT /F2 9 Tf 0.043 0.165 0.290 rg 1 0 0 1 147.00 669.10 Tm (63) Tj ET
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 149.00 607.00 Tm (Sep) Tj ET
+0.173 0.651 0.878 rg 216.00 620.00 42.00 51.80 re f
+BT /F2 9 Tf 0.043 0.165 0.290 rg 1 0 0 1 225.00 676.80 Tm (74) Tj ET
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 227.00 607.00 Tm (Oct) Tj ET
+0.173 0.651 0.878 rg 294.00 620.00 42.00 57.40 re f
+BT /F2 9 Tf 0.043 0.165 0.290 rg 1 0 0 1 303.00 682.40 Tm (82) Tj ET
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 305.00 607.00 Tm (Nov) Tj ET
+0.60 w 0.847 0.871 0.902 RG 55.00 620.00 m 370.00 620.00 l S
+BT /F2 12 Tf 0.102 0.137 0.196 rg 1 0 0 1 40.00 582.00 Tm (Quantified value ó this month) Tj ET
+0.949 0.961 0.973 rg 40.00 524.00 170.00 46.00 re f
+0.173 0.651 0.878 rg 40.00 524.00 3.00 46.00 re f
+BT /F2 16 Tf 0.043 0.165 0.290 rg 1 0 0 1 52.00 548.00 Tm (62 hrs) Tj ET
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 52.00 532.00 Tm (analyst time saved on triage) Tj ET
+0.949 0.961 0.973 rg 222.00 524.00 170.00 46.00 re f
+0.173 0.651 0.878 rg 222.00 524.00 3.00 46.00 re f
+BT /F2 16 Tf 0.043 0.165 0.290 rg 1 0 0 1 234.00 548.00 Tm (94) Tj ET
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 234.00 532.00 Tm (risky AI egress calls blocked) Tj ET
+0.949 0.961 0.973 rg 404.00 524.00 170.00 46.00 re f
+0.173 0.651 0.878 rg 404.00 524.00 3.00 46.00 re f
+BT /F2 16 Tf 0.043 0.165 0.290 rg 1 0 0 1 416.00 548.00 Tm (3 of 3) Tj ET
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 416.00 532.00 Tm (shadow apps surfaced & evidenced) Tj ET
+BT /F2 12 Tf 0.102 0.137 0.196 rg 1 0 0 1 40.00 492.00 Tm (AI egress ó every model / MCP call, under policy) Tj ET
+BT /F1 9 Tf 0.102 0.137 0.196 rg 1 0 0 1 48.00 462.00 Tm (checkout-app  ->  OpenAI) Tj ET
+BT /F2 9 Tf 0.118 0.557 0.353 rg 1 0 0 1 300.00 462.00 Tm (ALLOWED) Tj ET
+0.40 w 0.847 0.871 0.902 RG 40.00 456.00 m 572.00 456.00 l S
+BT /F1 9 Tf 0.102 0.137 0.196 rg 1 0 0 1 48.00 442.00 Tm (support-bot  ->  Anthropic) Tj ET
+BT /F2 9 Tf 0.118 0.557 0.353 rg 1 0 0 1 300.00 442.00 Tm (ALLOWED) Tj ET
+0.40 w 0.847 0.871 0.902 RG 40.00 436.00 m 572.00 436.00 l S
+BT /F1 9 Tf 0.102 0.137 0.196 rg 1 0 0 1 48.00 422.00 Tm (invoice-agent  ->  x-mcp.ru) Tj ET
+BT /F2 9 Tf 0.753 0.224 0.169 rg 1 0 0 1 300.00 422.00 Tm (BLOCKED ∑ prompt-injection, stopped at source) Tj ET
+0.40 w 0.847 0.871 0.902 RG 40.00 416.00 m 572.00 416.00 l S
+BT /F2 12 Tf 0.102 0.137 0.196 rg 1 0 0 1 40.00 382.00 Tm (Compliance evidence ó auto-mapped to what the agent observed) Tj ET
+0.949 0.961 0.973 rg 40.00 346.00 130.00 22.00 re f
+0.118 0.557 0.353 rg 48.00 354.00 6.00 6.00 re f
+BT /F1 8 Tf 0.102 0.137 0.196 rg 1 0 0 1 60.00 353.00 Tm (PCI DSS 6.4 / 11.5) Tj ET
+0.949 0.961 0.973 rg 176.00 346.00 130.00 22.00 re f
+0.118 0.557 0.353 rg 184.00 354.00 6.00 6.00 re f
+BT /F1 8 Tf 0.102 0.137 0.196 rg 1 0 0 1 196.00 353.00 Tm (SOC 2 CC6.1 / CC7.2) Tj ET
+0.949 0.961 0.973 rg 312.00 346.00 130.00 22.00 re f
+0.118 0.557 0.353 rg 320.00 354.00 6.00 6.00 re f
+BT /F1 8 Tf 0.102 0.137 0.196 rg 1 0 0 1 332.00 353.00 Tm (ISO 27001 A.8.16) Tj ET
+0.949 0.961 0.973 rg 448.00 346.00 130.00 22.00 re f
+0.118 0.557 0.353 rg 456.00 354.00 6.00 6.00 re f
+BT /F1 8 Tf 0.102 0.137 0.196 rg 1 0 0 1 468.00 353.00 Tm (NIST CSF DE.CM) Tj ET
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 40.00 322.00 Tm (Detection evidence \(DE.CM\) comes from the agent's observation path; egress enforcement is logged at the source.) Tj ET
+0.50 w 0.847 0.871 0.902 RG 40.00 32.00 m 572.00 32.00 l S
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 40.00 18.00 Tm (Sample report ó figures are illustrative. AppShield Agent is in early-access evaluation.) Tj ET
+BT /F1 8 Tf 0.420 0.450 0.500 rg 1 0 0 1 470.00 18.00 Tm (© Barracuda Networks) Tj ET
+
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000230 00000 n 
+0000000332 00000 n 
+0000000468 00000 n 
+0000009560 00000 n 
+0000009696 00000 n 
+0000021378 00000 n 
+0000021515 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+25910
+%%EOF

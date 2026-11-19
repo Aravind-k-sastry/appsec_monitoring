@@ -12,7 +12,7 @@ import html
 
 PRODUCT = "Barracuda AppShield Agent"
 SHORT = "AppShield Agent"
-TAGLINE = "One agent. Total application visibility. Protection you switch on."
+TAGLINE = "One agent. See every app, block risky AI egress, add inline protection when you onboard."
 
 # NAV: (path, label)
 NAV = [
@@ -114,9 +114,9 @@ def home():
           <div class="f-tag">ATTACKS</div>
           <div class="f-main">
             <strong>1,204 attacks on your login endpoint this week</strong>
-            <span>Credential-stuffing pattern against <code>/api/login</code> — visible now, one click to put it behind inline protection.</span>
+            <span>Credential-stuffing pattern against <code>/api/login</code> — detected in detect mode from host telemetry. Onboard this app to Advance/Premium for inline protection.</span>
           </div>
-          <div class="f-act">Protect &rarr;</div>
+          <div class="f-act">Onboard &rarr;</div>
         </div>
       </div>
     </div>
@@ -135,7 +135,7 @@ def home():
       <div class="card"><span class="ic">&#x1F575;&#xFE0F;</span><h3 class="cyan">SOC analyst</h3>
         <p>"I finally see what my services say to each other." Catch lateral movement the perimeter never showed — with host context that makes an alert actionable, not noise.</p></div>
       <div class="card"><span class="ic">&#x1F6E0;&#xFE0F;</span><h3 class="green">App owner</h3>
-        <p>"I know every app I'm exposing — and I can protect the ones that matter without a re-architecture." Start by seeing, switch on inline protection per app when you're ready.</p></div>
+        <p>"I know every app I'm exposing — and I can protect the ones that matter without a re-architecture." Start by seeing; onboard the apps that matter to Advance/Premium for cloud-delivered inline protection.</p></div>
       <div class="card"><span class="ic">&#x1F9D1;&#x200D;&#x2696;&#xFE0F;</span><h3 class="amber">CISO</h3>
         <p>"I can finally answer what our AI is doing." Map which apps call which models, govern agent egress to an allowed boundary, and show the board a picture instead of a shrug.</p></div>
     </div>
@@ -153,9 +153,9 @@ def home():
       <div class="card"><h3 class="cyan">1 · See</h3>
         <p>Mount the agent. It sends telemetry only — attacks, East-West traffic, and AI prompt activity on the apps you choose. Zero risk to the running app.</p></div>
       <div class="card"><h3 class="green">2 · Protect</h3>
-        <p>Route the public apps worth protecting through the Barracuda cloud: full inline WAF, L3–L7 DDoS, bot and volumetric absorption — scale handled off your host.</p></div>
+        <p>Onboard the public apps worth protecting to Advance/Premium — their traffic routes through the Barracuda cloud proxy for full inline WAF, L3–L7 DDoS, bot and volumetric absorption. The on-host agent never sits inline on incoming.</p></div>
       <div class="card"><h3 class="amber">3 · Govern</h3>
-        <p>Identify agents calling external MCPs and APIs, and fence them to an allowed boundary. Enforcement is pushed down to the agent at the source.</p></div>
+        <p>Identify agents calling external MCPs and APIs, and fence them to an allowed boundary. Agent egress is blocked at the source — enforced locally by the agent.</p></div>
     </div>
     <div class="center" style="margin-top:34px">
       <a class="btn btn-ghost" href="/how-it-works" data-cta="home_how">See the architecture &rarr;</a>
@@ -197,7 +197,7 @@ def how_it_works():
         <span>Analyzes the telemetry, flags likely attacks, and builds a live map of what's running and talking to what.</span></div>
       <div class="arrow">&rarr;</div>
       <div class="node"><div class="step">STEP 3</div><strong>Policy push-down</strong>
-        <span>When you choose to enforce, rules go back to the agent — block the next matching request, or fence an agent's egress.</span></div>
+        <span>Agent egress is blocked at the source. For incoming, onboard an app to Advance/Premium and its traffic routes through the cloud proxy — the on-host agent stays detect-only.</span></div>
     </div>
   </div>
 </section>
@@ -206,9 +206,9 @@ def how_it_works():
   <div class="wrap">
     <div class="section-head center"><div class="eyebrow">The architecture</div>
       <h2 class="center mt0">Thin agent on the host, intelligence in the cloud</h2>
-      <p class="sub">One agent captures and enforces locally; the Barracuda cloud analyzes, inspects AI prompts, and pushes policy back down. Selected public apps route to the cloud proxy for scale the host never carries.</p></div>
+      <p class="sub">One agent captures locally, detects incoming attacks, and blocks risky agent egress at the source; the Barracuda cloud analyzes, inspects AI prompts, and pushes policy back down. Apps you onboard route to the cloud proxy for inline protection the host never carries.</p></div>
     <div style="overflow-x:auto">
-      <svg viewBox="0 0 980 600" width="100%" style="max-width:980px;display:block;margin:0 auto" role="img" aria-label="AppShield Agent architecture: a thin agent on the customer host captures inbound (N-S), internal (E-W) and AI activity and sends compact telemetry to the Barracuda cloud brain, which analyzes it, runs prompt inspection, and pushes policy back down to the agent; selected public apps route to the cloud proxy for inline scale, and alerts surface to the SOC/XDR.">
+      <svg viewBox="0 0 980 600" width="100%" style="max-width:980px;display:block;margin:0 auto" role="img" aria-label="AppShield Agent architecture: a thin agent on the customer host captures inbound (N-S), internal (E-W) and AI activity, detects incoming attacks in detect mode, blocks risky agent egress at the source, and sends compact telemetry to the Barracuda cloud brain, which analyzes it, runs prompt inspection, and pushes policy back down to the agent; apps you onboard to Advance/Premium route to the cloud proxy for inline protection, and alerts surface to the SOC/XDR.">
         <defs>
           <marker id="arB" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#26a1ff"/></marker>
           <marker id="arC" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#00edff"/></marker>
@@ -239,7 +239,7 @@ def how_it_works():
         <text x="58" y="266" fill="#00edff" font-family="Arial" font-size="16" font-weight="700">Barracuda AppShield Agent</text>
         <text x="58" y="294" fill="#c9d2dc" font-family="Arial" font-size="12.5">Captures request metadata, app-to-app (E-W) calls,</text>
         <text x="58" y="312" fill="#c9d2dc" font-family="Arial" font-size="12.5">and AI prompt activity</text>
-        <text x="58" y="336" fill="#c9d2dc" font-family="Arial" font-size="12.5">Extracts parameters · inspects locally · enforces policy</text>
+        <text x="58" y="336" fill="#c9d2dc" font-family="Arial" font-size="12.5">Extracts &amp; inspects locally · detects incoming · blocks risky egress</text>
         <text x="58" y="360" fill="#8b949e" font-family="Arial" font-size="11">Lightweight &#8212; data stays on the host unless sampled</text>
         <text x="40" y="410" fill="#8b949e" font-family="Arial" font-size="11.5">Deploys in minutes · no DNS change · no re-routing to start</text>
 
@@ -264,9 +264,9 @@ def how_it_works():
         <line x1="580" y1="345" x2="940" y2="345" stroke="#30363d" stroke-width="1" stroke-dasharray="4 4"/>
         <text x="760" y="358" text-anchor="middle" fill="#8b949e" font-family="Arial" font-size="10">data plane · scale</text>
         <rect x="580" y="364" width="360" height="74" rx="9" fill="#0b0f14" stroke="#0cf2a5"/>
-        <text x="598" y="387" fill="#e6edf3" font-family="Arial" font-size="14" font-weight="700">Cloud proxy &#8212; inline scale</text>
+        <text x="598" y="387" fill="#e6edf3" font-family="Arial" font-size="14" font-weight="700">Cloud proxy &#8212; inline protection</text>
         <text x="598" y="407" fill="#8b949e" font-family="Arial" font-size="11.5">WAF · L3&#8211;L7 DDoS · bot &amp; volumetric absorption</text>
-        <text x="598" y="426" fill="#0cf2a5" font-family="Arial" font-size="11">public apps you choose route here &#8212; load off your host</text>
+        <text x="598" y="426" fill="#0cf2a5" font-family="Arial" font-size="11">apps you onboard (Advance/Premium) route here &#8212; load off your host</text>
 
         <line x1="700" y1="450" x2="700" y2="506" stroke="#00edff" stroke-width="1.5" marker-end="url(#arC)"/>
         <text x="712" y="484" fill="#00edff" font-family="Arial" font-size="11">alerts &amp; findings &#8594; XDR</text>
@@ -290,9 +290,9 @@ def how_it_works():
       <h2 class="mt0">Honest about what runs where</h2></div>
     <div class="grid g2">
       <div class="card"><h3 class="cyan">The agent handles reach</h3>
-        <p>It sees East-West traffic, un-onboarded exposed apps, and AI/agent activity — things that never pass through a cloud proxy. It extracts and inspects locally, so your data stays on the host unless sampled.</p></div>
+        <p>It sees East-West traffic, un-onboarded exposed apps, and AI/agent activity — things that never pass through a cloud proxy. It detects incoming attacks in detect mode and blocks risky agent egress at the source, inspecting locally so your data stays on the host unless sampled.</p></div>
       <div class="card"><h3 class="green">The cloud handles scale</h3>
-        <p>Heavy, elastic load — DDoS, bots, volumetric attacks, line-rate ML — is absorbed by the Barracuda cloud, never your host. The agent stays light by design.</p></div>
+        <p>For apps you onboard to Advance/Premium, heavy elastic load — DDoS, bots, volumetric attacks, line-rate ML — is absorbed by the Barracuda cloud proxy, never your host. The agent stays light and detect-only on incoming by design.</p></div>
       <div class="card"><h3 class="amber">Prompt inspection, built in</h3>
         <p>AI prompt analysis runs through Barracuda's Prompt Inspector service — prompt injection, jailbreak, and data-leak checks — with malicious-intent alerts surfaced to your security team.</p></div>
       <div class="card"><h3>Straight talk on overhead</h3>
@@ -327,13 +327,13 @@ def use_cases():
       <div class="card"><span class="ic">&#x2194;&#xFE0F;</span><h3>Catch lateral movement (East-West)</h3>
         <p>Surface service-to-service calls a cloud WAF never sees. Spot an app reaching something it never should — the first sign of an attacker moving inside.</p></div>
       <div class="card"><span class="ic">&#x1F575;&#xFE0F;</span><h3>Find shadow-exposed apps</h3>
-        <p>Discover applications that are publicly reachable but were never put behind the WAF — before an attacker does. Then onboard them with one click.</p></div>
+        <p>Discover applications that are publicly reachable but were never put behind the WAF — before an attacker does. Then onboard them to a protection plan when you're ready.</p></div>
       <div class="card"><span class="ic">&#x1F916;</span><h3>See your AI footprint</h3>
         <p>Map which apps exchange LLM prompts, with which models, and flag prompt injection, jailbreaks, and data leakage against your own AI apps.</p></div>
       <div class="card"><span class="ic">&#x1F6A7;</span><h3>Govern agent egress</h3>
         <p>For the CISO: identify AI agents on your hosts calling external MCP servers and APIs, and fence them to an allowed boundary — enforced at the source.</p></div>
       <div class="card"><span class="ic">&#x1F6E1;&#xFE0F;</span><h3>Protect public apps at scale</h3>
-        <p>Route your internet-facing apps through the Barracuda cloud for full inline WAF, DDoS, and bot defense — without the heavy load ever touching your host.</p></div>
+        <p>Onboard your internet-facing apps to Advance/Premium — their traffic routes through the Barracuda cloud for full inline WAF, DDoS, and bot defense, without the heavy load ever touching your host or the agent sitting inline.</p></div>
       <div class="card"><span class="ic">&#x1F4CA;</span><h3>Prove exposure to leadership</h3>
         <p>"Here are the attacks hitting your login endpoint this week, and the three exposed apps we found." Turn invisible risk into a board-ready picture.</p></div>
     </div>
@@ -479,8 +479,8 @@ def experience():
             <div class="f-act">Investigate &rarr;</div></div>
           <div class="finding sev-info"><div class="f-tag">ATTACKS</div>
             <div class="f-main"><strong>1,204 attacks on your login endpoint this week</strong>
-              <span>Credential-stuffing against <code>/api/login</code> &mdash; one click to put it behind inline protection.</span></div>
-            <div class="f-act">Protect &rarr;</div></div>
+              <span>Credential-stuffing against <code>/api/login</code> &mdash; detected in detect mode from host telemetry. Onboard this app to Advance/Premium for cloud-delivered inline protection.</span></div>
+            <div class="f-act">Onboard &rarr;</div></div>
         </div>
       </div>
     </div>
@@ -493,27 +493,27 @@ def experience():
     <div class="jstep rev">
       <div class="jcopy">
         <span class="num">4</span><span class="when">When you&rsquo;re ready · the app owner</span>
-        <h3>Decide an app is worth protecting. Flip one toggle.</h3>
-        <p>It routes through the Barracuda cloud &mdash; full inline WAF, L3&ndash;L7 DDoS and bot absorption
-          handled off your host. Seeing never risked the app; switching on protection is a decision, not a
-          re-architecture.</p>
-        <div class="feel"><b>Feel:</b><span>&ldquo;One switch, not a quarter of work.&rdquo; &mdash; protection
-          becomes something you turn on per app, when it earns it.</span></div>
+        <h3>Decide an app is worth protecting. Onboard it to a plan.</h3>
+        <p>Onboard the app to Advance or Premium and its incoming traffic routes through the Barracuda
+          cloud &mdash; full inline WAF, L3&ndash;L7 DDoS and bot absorption handled off your host. The
+          on-host agent never sits inline on incoming; seeing stays detect-only until you choose to onboard.</p>
+        <div class="feel"><b>Feel:</b><span>&ldquo;Protection is a decision, not a re-architecture.&rdquo; &mdash;
+          you onboard the apps that earn it, when they earn it.</span></div>
       </div>
       <div class="screen">
         <div class="screen-bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
-          <span class="screen-title">{SHORT} · Protection</span>
+          <span class="screen-title">{SHORT} · Onboard to protection</span>
           <span class="screen-live"><span class="live"></span> saving…</span></div>
         <div class="screen-body" style="padding:14px">
-          <div class="rowline"><span class="app">reports-api <small>just routed through cloud · inline WAF + DDoS</small></span>
+          <div class="rowline"><span class="app">reports-api <small>onboarded · Advance · routed through cloud (WAF + DDoS)</small></span>
             <span class="chip prot">PROTECTED</span><span class="toggle on"><span></span></span></div>
-          <div class="rowline"><span class="app">checkout-app <small>routed through cloud</small></span>
+          <div class="rowline"><span class="app">checkout-app <small>onboarded · routed through cloud</small></span>
             <span class="chip prot">PROTECTED</span><span class="toggle on"><span></span></span></div>
-          <div class="rowline"><span class="app">payments-svc <small>internal · visibility only</small></span>
-            <span class="chip see">MONITORING</span><span class="toggle"><span></span></span></div>
-          <div class="rowline"><span class="app">support-bot <small>internal · visibility only</small></span>
-            <span class="chip see">MONITORING</span><span class="toggle"><span></span></span></div>
-          <p class="muted" style="font-size:12px;margin:10px 2px 0">Toggle on &rarr; traffic routes to the Barracuda cloud. The heavy load never touches your host.</p>
+          <div class="rowline"><span class="app">payments-svc <small>internal · detect mode</small></span>
+            <span class="chip see">DETECT</span><span class="toggle"><span></span></span></div>
+          <div class="rowline"><span class="app">support-bot <small>internal · detect mode</small></span>
+            <span class="chip see">DETECT</span><span class="toggle"><span></span></span></div>
+          <p class="muted" style="font-size:12px;margin:10px 2px 0">Onboard &rarr; the app&rsquo;s traffic routes to the Barracuda cloud for inline protection. The agent stays detect-only; the heavy load never touches your host.</p>
         </div>
       </div>
     </div>
@@ -566,28 +566,129 @@ def experience():
       <div class="jcopy">
         <span class="num">6</span><span class="when">Monthly · leadership</span>
         <h3>Hand leadership a picture, not a shrug.</h3>
-        <p>A posture view that rolls up what changed: blind spots closed, attacks stopped, AI calls governed
-          &mdash; with a one-click board report. The invisible risk you started with, now a trend line going
-          the right way.</p>
+        <p>One click turns a month of telemetry into a report your board will actually read: posture up and to
+          the right, every blind spot closed, every incoming attack detected, every risky AI call blocked at the
+          source &mdash; and the hours-and-risk value behind each number. The invisible risk you started with, now a
+          line you can defend in a budget meeting.</p>
         <div class="feel"><b>Feel:</b><span>&ldquo;A number I can stand behind.&rdquo; &mdash; the before/after
-          you couldn&rsquo;t produce a month ago.</span></div>
+          you couldn&rsquo;t produce a month ago, with the evidence attached.</span></div>
       </div>
       <div class="screen">
         <div class="screen-bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
-          <span class="screen-title">{SHORT} · Security posture</span>
-          <span class="screen-live"><span class="live"></span> this month</span></div>
+          <span class="screen-title">{SHORT} · Board report &mdash; <span class="muted">November 2026</span></span>
+          <span class="screen-live"><span class="live"></span> ready to export</span></div>
         <div class="screen-body" style="padding:14px">
+
           <div class="gauge">
             <div class="score">82<small>/100</small></div>
-            <div class="meta">Posture score <b>&uarr; from 54</b> at install<br>
-              <span class="muted" style="font-size:12px">3 blind spots closed · 2 apps now protected · AI egress governed</span></div>
+            <div class="meta">Posture score <b>&uarr; +28 since install</b><br>
+              <span class="muted" style="font-size:12px">started at 54 · 30 days · top-quartile for your app count</span></div>
           </div>
-          <div class="sumbar"><div class="lab"><span>Blind spots closed</span><span>3 / 3</span></div><div class="track"><span style="width:100%"></span></div></div>
-          <div class="sumbar"><div class="lab"><span>Attacks absorbed off-host</span><span>18,400</span></div><div class="track"><span style="width:88%"></span></div></div>
-          <div class="sumbar"><div class="lab"><span>AI calls under policy</span><span>100%</span></div><div class="track"><span style="width:100%"></span></div></div>
-          <p class="muted" style="font-size:12px;margin:10px 2px 0">&#8595; Export board report (PDF)</p>
+
+          <div class="rpt-h">Headline metrics <span class="rule"></span> vs. last month</div>
+          <div class="rpt-kpis">
+            <div class="rpt-kpi"><div class="big">3 / 3</div><div class="cap">blind-spot apps closed</div><span class="delta up">&darr; 3 shadow</span></div>
+            <div class="rpt-kpi"><div class="big">92,456</div><div class="cap">incoming attacks detected</div><span class="delta up">&uarr; 41%</span></div>
+            <div class="rpt-kpi"><div class="big">100%</div><div class="cap">AI calls under policy</div><span class="delta up">&uarr; from 0%</span></div>
+            <div class="rpt-kpi"><div class="big">0</div><div class="cap">breaches · host incidents</div><span class="delta flat">= clean</span></div>
+            <div class="rpt-kpi"><div class="big">6&nbsp;min</div><div class="cap">mean time to detect shadow app</div><span class="delta up">was: never</span></div>
+            <div class="rpt-kpi"><div class="big">94</div><div class="cap">AI egress calls blocked at source</div><span class="delta down">&uarr; threat vol.</span></div>
+          </div>
+
+          <div class="rpt-h">Posture trend <span class="rule"></span> last 4 months</div>
+          <div class="trend">
+            <div class="bar first"><span style="height:38%"></span><b>54</b><small>Aug</small></div>
+            <div class="bar"><span style="height:50%"></span><b>63</b><small>Sep</small></div>
+            <div class="bar"><span style="height:64%"></span><b>74</b><small>Oct</small></div>
+            <div class="bar"><span style="height:82%"></span><b>82</b><small>Nov</small></div>
+          </div>
+
+          <div class="rpt-h">What the agent caught <span class="rule"></span> top vectors</div>
+          <table class="rpt-table">
+            <tr><th>Vector</th><th>Target</th><th>Volume</th><th>Outcome</th></tr>
+            <tr><td>Credential stuffing</td><td><span class="mut">/api/login</span></td><td class="num">42,118</td><td>detected · detect mode</td></tr>
+            <tr><td>L7 HTTP flood</td><td><span class="mut">reports-api</span></td><td class="num">18,440</td><td>detected · detect mode</td></tr>
+            <tr><td>SQLi / XSS probes</td><td><span class="mut">checkout-app</span></td><td class="num">5,149</td><td>detected · detect mode</td></tr>
+            <tr><td>Prompt injection</td><td><span class="mut">invoice-agent &rarr; MCP</span></td><td class="num">47</td><td>blocked at egress</td></tr>
+          </table>
+
+          <div class="rpt-h">Quantified value <span class="rule"></span> this month</div>
+          <div class="valuebox">
+            <div class="v"><div class="amt">62 hrs</div><div class="cap">analyst time saved &mdash; triaged, ranked findings vs. manual hunt</div></div>
+            <div class="v"><div class="amt">94</div><div class="cap">risky AI egress calls blocked at the source this month</div></div>
+            <div class="v"><div class="amt">3 of 3</div><div class="cap">shadow apps surfaced &amp; evidenced, not findings</div></div>
+          </div>
+
+          <div class="rpt-h">Compliance evidence <span class="rule"></span> auto-mapped</div>
+          <div class="rbadges">
+            <span class="rbadge"><span class="tick">&#10003;</span> PCI DSS 6.4 / 11.5</span>
+            <span class="rbadge"><span class="tick">&#10003;</span> SOC 2 CC6.1 / CC7.2</span>
+            <span class="rbadge"><span class="tick">&#10003;</span> ISO 27001 A.8.16</span>
+            <span class="rbadge"><span class="tick">&#10003;</span> NIST CSF DE.CM</span>
+          </div>
+
+          <p class="muted" style="font-size:12px;margin:12px 2px 0">&#8595; Export board report (PDF) &nbsp;·&nbsp; Schedule monthly &nbsp;·&nbsp; Send to SIEM</p>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- REPORTS GALLERY — three audiences, three reports -->
+<section style="padding-top:0;border-bottom:0">
+  <div class="wrap">
+    <div style="max-width:720px;margin:6px 0 2px">
+      <span class="pill"><span class="live"></span> Inside the reports</span>
+      <h2 style="margin:16px 0 8px">One month of telemetry, three reports &mdash; each written for who&rsquo;s reading it.</h2>
+      <p class="sub" style="margin:0">Every report is generated from the same live data, so the number the board sees
+        ties back to the finding the analyst closed. Incoming attacks are reported as <b>detected</b> (detect mode);
+        agent egress as <b>blocked at the source</b>. Nothing is hand-assembled; nothing drifts between the slide and the SOC.</p>
+      <div style="margin:18px 0 2px;display:flex;align-items:center;gap:14px;flex-wrap:wrap">
+        <a class="btn btn-cta" href="/static/sample-report.pdf" download data-cta="sample_report_download">&#8595;&nbsp; Download the sample report (PDF)</a>
+        <span class="muted" style="font-size:12px">A real 2-page Security Posture Report &mdash; apps discovered &amp; attacks found on them. Illustrative data.</span>
+      </div>
+    </div>
+    <div class="rgal">
+
+      <div class="rdoc">
+        <span class="rkick">For the board</span>
+        <h4>Security Posture Report</h4>
+        <p>The one-pager leadership keeps. Posture score and its trend, risk reduced, and the dollar value behind it.</p>
+        <ul>
+          <li><b>Posture score</b> with 4-month trend and peer benchmark</li>
+          <li><b>Risk reduced:</b> blind spots closed, incoming attacks detected, AI egress blocked</li>
+          <li><b>Quantified value:</b> analyst hours saved, egress calls blocked at source</li>
+          <li><b>Zero-incident attestation</b> for the period</li>
+        </ul>
+        <div class="who">Audience: <b>CISO, board, budget owner</b> · monthly, 1 page</div>
+      </div>
+
+      <div class="rdoc">
+        <span class="rkick">For the SOC</span>
+        <h4>Findings &amp; Response Log</h4>
+        <p>The working record. Every finding, who/what/where, severity, and how it was resolved &mdash; exportable to your SIEM.</p>
+        <ul>
+          <li><b>Full findings table:</b> process, identity, peer, severity</li>
+          <li><b>Attack breakdown</b> by vector, target app, and volume</li>
+          <li><b>AI egress log:</b> every model/MCP call, allowed or blocked</li>
+          <li><b>Mean-time-to-detect</b> and open/closed aging</li>
+        </ul>
+        <div class="who">Audience: <b>SOC lead, security analysts</b> · live + weekly</div>
+      </div>
+
+      <div class="rdoc">
+        <span class="rkick">For the auditor</span>
+        <h4>Compliance Evidence Pack</h4>
+        <p>The artifact that turns &ldquo;we think we&rsquo;re covered&rdquo; into evidence &mdash; controls mapped to what the agent actually observed.</p>
+        <ul>
+          <li><b>Control mapping:</b> PCI DSS, SOC 2, ISO 27001, NIST CSF</li>
+          <li><b>App inventory</b> with exposure and status (detect mode / onboarded)</li>
+          <li><b>Change record:</b> what was onboarded to protection, when</li>
+          <li><b>Signed, timestamped export</b> for the evidence binder</li>
+        </ul>
+        <div class="who">Audience: <b>GRC, auditors, assessors</b> · on demand</div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -608,8 +709,8 @@ def pricing():
   <div class="wrap">
     <span class="pill"><span class="live"></span> Pricing</span>
     <h1>Start with visibility.<br><span class="accent">Pay to turn protection on.</span></h1>
-    <p class="lede">Four plans, one agent. Land with low-cost visibility, expand into inline protection,
-      and add AI governance when you need it. Prices shown are introductory early-access rates.</p>
+    <p class="lede">Four plans, one agent. Land with low-cost visibility (incoming in detect mode), onboard apps to
+      cloud-delivered inline protection, and add AI governance when you need it. Prices shown are introductory early-access rates.</p>
   </div>
 </section>
 
